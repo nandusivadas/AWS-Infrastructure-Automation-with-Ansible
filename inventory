@@ -1,0 +1,8 @@
+[dev]
+client1 ansible_host=172.31.42.176
+
+[test]
+client2 ansible_host=172.31.46.37
+
+[all:vars]
+ansible_user=devops

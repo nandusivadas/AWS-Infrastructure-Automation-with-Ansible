@@ -1,0 +1,40 @@
+---
+- hosts: dev
+  become: yes
+
+  tasks:
+
+    - name: Update all packages
+      dnf:
+        name: "*"
+        state: latest
+
+    - name: Install mariadb
+      dnf:
+        name: mariadb105-server
+        state: present
+
+    - name: Install php
+      dnf:
+        name: php
+        state: present
+
+    - name: Install Development Tools
+      dnf:
+        name: "@Development Tools"
+        state: present
+
+- hosts: test
+  become: yes
+
+  tasks:
+
+    - name: Install mariadb
+      dnf:
+        name: mariadb105-server
+        state: present
+
+    - name: Install php
+      dnf:
+        name: php
+        state: present
