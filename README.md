@@ -95,7 +95,9 @@ ansible/
 
 > Passwordless SSH communication between Control Node and Client Nodes
 
-![SSH Key Authentication](screenshots/03.png)
+<p align="center">
+<img src="screenshots/03.png" width="1000">
+</p>
 
 
 
@@ -103,9 +105,13 @@ ansible/
 
 > Inventory file and ansible.cfg configuration
 
-![Inventory file Configuration](screenshots/04.png)
+<p align="center">
+<img src="screenshots/04.png" width="1000">
+</p>
 
-![ansible.cfg Configuration](screenshots/05.png)
+<p align="center">
+<img src="screenshots/04.png" width="1000">
+</p>
 
 
 
@@ -246,7 +252,7 @@ Detailed project documentation is available in the repository.
 
 Successfully automated Linux server configuration using Ansible, deployed Apache web servers through reusable playbooks and roles, and demonstrated Infrastructure as Code (IaC) by recreating the environment in another AWS region using the same automation project.
 
----
+
 
 ## 👨‍💻 Author
 
