@@ -4,7 +4,7 @@
 
 This project demonstrates Infrastructure Automation using Ansible across two AWS regions. In Mission 1, a control node was configured in the Mumbai region to manage multiple Linux client nodes using Ansible Playbooks, Roles, and passwordless SSH. The automation project was version-controlled using Git and pushed to GitHub. In Mission 2, the same repository was cloned in the Hyderabad region, where the playbooks were executed again to recreate the infrastructure and deploy the web server without manual configuration. This project highlights Infrastructure as Code (IaC), configuration management, and reusable automation across different environments.
 
----
+
 
 ## 🏗️ Architecture Diagram
 
@@ -12,7 +12,7 @@ This project demonstrates Infrastructure Automation using Ansible across two AWS
 
 ![Architecture Diagram](screenshots/01.png)
 
----
+
 
 ## 🛠️ Technologies Used
 
@@ -28,7 +28,7 @@ This project demonstrates Infrastructure Automation using Ansible across two AWS
 - Linux Administration
 - Jinja2 Templates
 
----
+
 
 ## ✨ Key Features
 
@@ -42,7 +42,7 @@ This project demonstrates Infrastructure Automation using Ansible across two AWS
 - Git-based version control
 - Infrastructure recreation by cloning the Git repository in a different AWS region
 
----
+
 
 ## 🔄 Project Workflow
 
@@ -57,7 +57,7 @@ This project demonstrates Infrastructure Automation using Ansible across two AWS
 9. Clone the repository in another AWS Region
 10. Re-execute playbooks to recreate the infrastructure
 
----
+
 
 ## 📁 Project Structure
 
@@ -79,7 +79,7 @@ ansible/
 └── README.md
 ```
 
----
+
 
 # 📷 Screenshots
 
@@ -89,7 +89,7 @@ ansible/
 
 ![AWS Infrastructure](screenshots/02.png)
 
----
+
 
 ## 2️⃣ SSH Key Authentication
 
@@ -97,7 +97,7 @@ ansible/
 
 ![SSH Key Authentication](screenshots/03.png)
 
----
+
 
 ## 3️⃣ Ansible Inventory Configuration
 
@@ -107,7 +107,7 @@ ansible/
 
 ![ansible.cfg Configuration](screenshots/05.png)
 
----
+
 
 ## 4️⃣ Playbook Execution
 
@@ -143,7 +143,7 @@ Created a custom web directory and deployed the application.
 
 ![Custom Configuration](screenshots/13.png)
 
----
+
 
 ## 5️⃣ Deployment Verification
 
@@ -161,7 +161,7 @@ Verified that the Apache HTTP service is active and running.
 ![GitHub Repository](screenshots/15.png)
 
 
----
+
 
 ## 6️⃣ Final Web Server Output
 
@@ -169,7 +169,7 @@ Verified that the Apache HTTP service is active and running.
 
 ![Final Web Server Output](screenshots/17.png)
 
----
+
 
 ## 🚀 How to Run
 
@@ -215,7 +215,7 @@ ansible-navigator run issue.yml
 ansible-navigator run custom.yml
 ```
 
----
+
 
 ## ✅ Skills Demonstrated
 
@@ -232,7 +232,7 @@ ansible-navigator run custom.yml
 - Git & GitHub
 - Linux System Administration
 
----
+
 
 ## 📖 Documentation
 
@@ -240,7 +240,7 @@ Detailed project documentation is available in the repository.
 
 📄 **AWS-Infrastructure-Automation-with-Ansible**
 
----
+
 
 ## 📌 Project Outcome
 
