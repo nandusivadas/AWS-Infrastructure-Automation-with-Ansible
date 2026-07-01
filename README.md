@@ -1,5 +1,12 @@
 # AWS-Infrastructure-Automation-with-Ansible
 
+![AWS](https://img.shields.io/badge/AWS-EC2-orange)
+![Ansible](https://img.shields.io/badge/Ansible-Automation-red)
+![Linux](https://img.shields.io/badge/Linux-Amazon%20Linux-blue)
+![Docker](https://img.shields.io/badge/Docker-Containerization-2496ED)
+![Git](https://img.shields.io/badge/Git-Version%20Control-F05032)
+![GitHub](https://img.shields.io/badge/GitHub-Repository-181717)
+
 ## 📌 Project Overview
 
 This project demonstrates Infrastructure Automation using Ansible across two AWS regions. In Mission 1, a control node was configured in the Mumbai region to manage multiple Linux client nodes using Ansible Playbooks, Roles, and passwordless SSH. The automation project was version-controlled using Git and pushed to GitHub. In Mission 2, the same repository was cloned in the Hyderabad region, where the playbooks were executed again to recreate the infrastructure and deploy the web server without manual configuration. This project highlights Infrastructure as Code (IaC), configuration management, and reusable automation across different environments.
